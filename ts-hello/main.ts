@@ -74,17 +74,42 @@
 
 
 
-/* -- Interfaces--*/
-interface Point{
-  x:number,
-  y:number
-}
+// /* -- Interfaces--*/
+// interface Point{
+//   x:number,
+//   y:number
+// }
 
-let drawPoint=(point:Point)=>{
+// let drawPoint=(point:Point)=>{
+//   // ...
+// }
+
+// drawPoint({
+//   x:1,
+//   y:2
+// })
+
+
+
+/*-------------------------*/
+
+
+
+// /* --Classes--*/
+class Point{
+  x: number | undefined;
+  y: number| undefined;
+
+draw(){
+  // console.log('X:'+ this.x + 'Y:'+this.y);
+
+}
+getDistance(another:Point){
   // ...
 }
 
-drawPoint({
-  x:1,
-  y:2
-})
+
+}
+
+// let point: Point;
+// point.draw();
