@@ -29,16 +29,28 @@
 
 
 /* --Types--*/
-let a:number;
-let b:boolean;
-let c:string;
-let d:any;
-let e:number[]=[1,2,3];
-let f:any[]=[1,true,'k',false];
+// let a:number;
+// let b:boolean;
+// let c:string;
+// let d:any;
+// let e:number[]=[1,2,3];
+// let f:any[]=[1,true,'k',false];
 
-const colorRed=0;
-const colorGreen=1;
-const colorBlue=2;
+// const colorRed=0;
+// const colorGreen=1;
+// const colorBlue=2;
 
-enum Color{red=0,Green=1,Blue=2,purple=3};
-let backgroundColor=Color.red;
+// enum Color{red=0,Green=1,Blue=2,purple=3};
+// let backgroundColor=Color.red;
+
+
+
+/*-------------------------*/
+
+
+
+/* --Types--*/
+let message;
+message='abc';
+let endsWithC=(<string>message).endsWith('c');
+let alternativeWay=(message as string).endsWith('c');

@@ -4,13 +4,7 @@
 // }
 // var message = 'hello world';
 // log(message);
-
-
-
 /*-------------------------*/
-
-
-
 /* --Declaring Variables--*/
 // function doSomething(){
 //   for (var i=0 ;i<5; i++){
@@ -19,29 +13,22 @@
 //   console.log('Finally :' +i);
 // }
 // doSomething();
-
-
-
 /*-------------------------*/
-
-
-
 /* --Types--*/
-var a;
-var b;
-var c;
-var d;
-var e = [1, 2, 3];
-var f = [1, true, 'k', false];
-var colorRed = 0;
-var colorGreen = 1;
-var colorBlue = 2;
-var Color;
-(function (Color) {
-  Color[Color["red"] = 0] = "red";
-  Color[Color["Green"] = 1] = "Green";
-  Color[Color["Blue"] = 2] = "Blue";
-  Color[Color["purple"] = 3] = "purple";
-})(Color || (Color = {}));
-;
-var backgroundColor = Color.red;
+// let a:number;
+// let b:boolean;
+// let c:string;
+// let d:any;
+// let e:number[]=[1,2,3];
+// let f:any[]=[1,true,'k',false];
+// const colorRed=0;
+// const colorGreen=1;
+// const colorBlue=2;
+// enum Color{red=0,Green=1,Blue=2,purple=3};
+// let backgroundColor=Color.red;
+/*-------------------------*/
+/* --Types--*/
+var message;
+message = 'abc';
+var endsWithC = message.endsWith('c');
+var alternativeWay = message.endsWith('c');
