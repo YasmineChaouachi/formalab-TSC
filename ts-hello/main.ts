@@ -62,8 +62,29 @@
 
 
 /* -- Arrow Functions--*/
-let log =function(message: string){
-  console.log(message);
+// let log =function(message: string){
+//   console.log(message);
 
+// }
+// let doLog=()=>console.log();
+
+
+
+/*-------------------------*/
+
+
+
+/* -- Interfaces--*/
+interface Point{
+  x:number,
+  y:number
 }
-let doLog=()=>console.log();
+
+let drawPoint=(point:Point)=>{
+  // ...
+}
+
+drawPoint({
+  x:1,
+  y:2
+})
