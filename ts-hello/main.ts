@@ -101,7 +101,7 @@ class Point{
   y: number| undefined;
 
 draw(){
-  // console.log('X:'+ this.x + 'Y:'+this.y);
+  console.log('X:'+ this.x + 'Y:'+this.y);
 
 }
 getDistance(another:Point){
@@ -111,5 +111,6 @@ getDistance(another:Point){
 
 }
 
-// let point: Point;
+let point: Point;
+// *****ERREUR*****
 // point.draw();
